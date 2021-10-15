@@ -24,7 +24,7 @@ time.sleep(3)
 
 while not RoundCount == Rounds:
 
-    User_choice = input("Enter one of the following options;\n R for Rock\n P for Paper\n S for Scissors\n")
+    User_choice = input("Use one of the following options;\n R for Rock\n P for Paper\n S for Scissors\n")
     Comp_Choice_Options = ["R","P", "S"]
     Comp_Choice =random.choice(Comp_Choice_Options)
 
